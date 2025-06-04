@@ -26,7 +26,30 @@
     </header>
 
     <main id="conteudo">
-        <!-- indica que é o conteúdo principal dessa página -->
+
+       <section id="slideshow">
+          <div class="slide fade">
+              <img src="Imagens/A.png" alt="Imagem A">
+          </div>
+          <div class="slide fade">
+              <img src="Imagens/B.jpg" alt="Imagem B">
+          </div>
+          <div class="slide fade">
+             <img src="Imagens/C.jpg" alt="Imagem C">
+          </div>
+          <div class="slide fade">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/5g5LQe3m8Po" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+
+          <br>
+            <div style="text-align:center">
+               <span class="dot" onclick="currentSlide(1)"></span>
+               <span class="dot" onclick="currentSlide(2)"></span>
+               <span class="dot" onclick="currentSlide(3)"></span>
+               <span class="dot" onclick="currentSlide(4)"></span>
+           </div>
+        </section>
+ 
 
         <div class="grid-container">
             <div class="grid-item">
